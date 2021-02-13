@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'aqh0gmr',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+  <header>
+    <div class="header-background">
+      <a href="index.html"><img src="images/logo.jpg" class="header-logo"></a>
+      <!-- ハンバーガーボタン -->
+      <div class="burger-background">
+      </div>
+    </div>
+        <div class="burger-btn">
+          <span class="bar bar_top"></span>
+          <span class="bar bar_mid"></span>
+          <span class="bar bar_bottom"></span>
+        </div>
+        <!-- ナビゲーション -->
+      <nav>
+          <div class="nav-wrapper">
+              <div class="header-nav">
+                <div class="information">
+                  <div class="header-adress">
+                    <div class="logo">
+                        <img src="images/logo.jpg" alt="ロゴ" class="img-fluid">
+                    </div>
+                    <p>
+                        合同会社 Day Produce
+                    </p>
+                    <p>
+                        〒314-0031<br>茨城県鹿嶋市大字宮中51番地2
+                    </p>
+                    <div class="contact-button">
+                        <button onclick="location.href='contact.html'">CONTACT<span><img src="images/Icon feather-arrow-right.png"></span></button>
+                    </div>
+                    <div class="sns-icon">
+                      <div>
+                          <a class="instagram" href="https://www.instagram.com/dayproduce/"><i class="fab fa-instagram"></i>Follow Us!</a>
+                      </div>
+                    </div>
+                    <div class="sns-icon">
+                      <div>
+                          <a class="twitter" href="https://twitter.com/day_produce"><i class="fab fa-twitter"></i>Follow Us!</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="nav-menu">
+                    <ul>
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="company.html">COMPANY</a></li>
+                      <li><a href="business.html">SERVICE</a></li>
+                      <li><a href="https://daypro.hatenablog.com/">BLOG</a></li>
+                    </ul>
+                </div>
+              </div>
+          </div><!--nav-wrapper-->
+      </nav>
+  </header>
+    <main class="contents">
+        <div class="contents-box">
+            <h1>CONTACT</h1>
+            <div class="contact-description">
+              <p>
+                  下記フォームへ入力し【入力内容を確認する】ボタンを押してください。<br>
+                  「※」は必須事項です。
+              </p>
+              <p>
+                【ご利用に関するご注意】内容によりご返信できない場合がございます。
+              </p>
+            </div>
+            <div class="form-box">
+              <form action="#" method="post">
+                <ul>
+                  <li>
+                    <div>
+                      <label for="name"></label>
+                      <input type="text" id="name" name="name" placeholder="名前" class="name">
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <label for="email"></label>
+                      <input type="mail" id="email" name="email" placeholder="メールアドレス" class="mail">
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <label for="message"></label>
+                      <textarea id="message" name="message" placeholder="要件" class="message"></textarea>
+                   </div>
+                  </li>
+                  <li>
+                    <input type="submit" value="送信する" class="submit">
+                  </li>
+                </ul>
+              </form>
+            </div>
+          </div>
+    </main>
+     <!-- フッター -->
+    <footer>
+      <div class="container footer-wrapper">
+          <div class="f-information">
+              <div class="logo">
+                  <img src="images/logo.jpg" alt="ロゴ" class="img-fluid">
+              </div>
+              <p>
+                  合同会社Day Produce
+              </p>
+              <p>
+                  〒314-0031<br>
+                  茨城県鹿嶋市大字宮中51番地2
+              </p>
+          </div>
+          <div class="footer-menu">
+              <ul>
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="#">COMPANY</a></li>
+                  <li><a href="#">SERVICE</a></li>
+                  <li><a href="https://daypro.hatenablog.com/">BLOG</a></li>
+                  <li><a href="#">CONTACT</a></li>
+              </ul>
+          </div>
+      </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
